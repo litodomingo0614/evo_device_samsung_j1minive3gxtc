@@ -1,0 +1,15 @@
+# <src>                                                <mnt_point>     <type>        <fs_mgr_flags>        <mnt_flags and options>
+/dev/block/platform/sdio_emmc/by-name/SYSTEM            /system         ext4          
+/dev/block/platform/sdio_emmc/by-name/HIDDEN            /preload        ext4          
+/dev/block/platform/sdio_emmc/by-name/userdata          /data           ext4          length=-16384
+/dev/block/platform/sdio_emmc/by-name/CACHE             /cache          ext4          
+/dev/block/platform/sdio_emmc/by-name/efs               /efs            ext4          
+/dev/block/platform/sdio_emmc/by-name/prodnv            /productinfo    ext4          
+/dev/block/platform/sdio_emmc/by-name/KERNEL            /boot           emmc          
+/dev/block/platform/sdio_emmc/by-name/RECOVERY          /recovery       emmc          
+/dev/block/platform/sdio_emmc/by-name/MODEM             /wmodem         emmc          
+/dev/block/platform/sdio_emmc/by-name/WDSP              /wdsp           emmc          
+/dev/block/platform/sdio_sd/mmcblk1p1                   /sdcard         vfat          
+/dev/block/platform/sdio_emmc/by-name/PERSISTENT        /persistent     emmc            
+/dev/block/mmcblk1p1                                    /external_sd    vfat          flags=display="Micro SDcard";storage;wipeingui;removable
+/dev/block/sda1 /dev/block/sda                          /usb-otg        vfat          flags=display="USB-OTG";storage;wipeingui;removable
